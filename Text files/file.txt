@@ -1,0 +1,4 @@
+Pritam is codig.
+He's trying.
+My name is Pritam Raj.
+I'm trying file writing with python.

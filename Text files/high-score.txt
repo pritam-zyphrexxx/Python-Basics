@@ -1,0 +1,3 @@
+Base high score is: 0
+New high score is: 3
+New high score is: 5

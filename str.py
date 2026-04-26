@@ -1,4 +1,4 @@
-abs="pritam is a good coder. Also, he is a good debugger."
+abs="pritam is good. Also, he is coding."
 
 print(len(abs))
 
@@ -14,3 +14,4 @@ print(abs.lower())
 
 print(abs.upper())
 
+print(abs.find("pritam"))

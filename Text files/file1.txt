@@ -1,0 +1,2 @@
+My name is Pritam Raj.
+I'm trying file writing with python.

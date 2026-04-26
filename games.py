@@ -1,5 +1,29 @@
 import random
 
+# Random number guess.....
+
+def game():
+    random_number = random.randint(1,10)
+
+    guessed = int(input("Enter your guess [between 1 to 10]: "))
+    no_of_guesses = 1
+
+
+    while not (guessed>=1 and guessed<=10):
+        guessed = int(input("Guess within 1 to 10: "))
+        
+    while(random_number != guessed):
+        if(random_number > guessed):
+            guessed = int(input(f"Guess higher than {guessed}: "))
+        else:
+            guessed = int(input(f"Guess lower than {guessed}: "))
+        no_of_guesses += 1
+        
+
+    print("You guessed it correct.")
+    print(f"System guessed: {random_number}")
+    print(f"Total Guesses: {no_of_guesses}")
+
 # Snake Water Gun game.....
 
 def swg(user):
